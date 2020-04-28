@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Header.h"
 
 namespace lab9 {
@@ -11,7 +11,7 @@ namespace lab9 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -20,13 +20,13 @@ namespace lab9 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -52,14 +52,14 @@ namespace lab9 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -85,8 +85,8 @@ namespace lab9 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(312, 39);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Преобразовать каждую строку текстового файла,\r\n удалив из каждого слова нечетной "
-				L"длины средний символ,\r\n и найти строку с минимальным количеством удалений.  ";
+			this->label1->Text = L"РџСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РєР°Р¶РґСѓСЋ СЃС‚СЂРѕРєСѓ С‚РµРєСЃС‚РѕРІРѕРіРѕ С„Р°Р№Р»Р°,\r\n СѓРґР°Р»РёРІ РёР· РєР°Р¶РґРѕРіРѕ СЃР»РѕРІР° РЅРµС‡РµС‚РЅРѕР№ "
+				L"РґР»РёРЅС‹ СЃСЂРµРґРЅРёР№ СЃРёРјРІРѕР»,\r\n Рё РЅР°Р№С‚Рё СЃС‚СЂРѕРєСѓ СЃ РјРёРЅРёРјР°Р»СЊРЅС‹Рј РєРѕР»РёС‡РµСЃС‚РІРѕРј СѓРґР°Р»РµРЅРёР№.  ";
 			// 
 			// label2
 			// 
@@ -95,7 +95,7 @@ namespace lab9 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(124, 13);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Путь входящего файла";
+			this->label2->Text = L"РџСѓС‚СЊ РІС…РѕРґСЏС‰РµРіРѕ С„Р°Р№Р»Р°";
 			// 
 			// textBox1
 			// 
@@ -118,7 +118,7 @@ namespace lab9 {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(76, 13);
 			this->label3->TabIndex = 3;
-			this->label3->Text = L"Файл выхода";
+			this->label3->Text = L"Р¤Р°Р№Р» РІС‹С…РѕРґР°";
 			// 
 			// button1
 			// 
@@ -126,7 +126,7 @@ namespace lab9 {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(143, 23);
 			this->button1->TabIndex = 5;
-			this->button1->Text = L"Указать входящий файл";
+			this->button1->Text = L"РЈРєР°Р·Р°С‚СЊ РІС…РѕРґСЏС‰РёР№ С„Р°Р№Р»";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -136,7 +136,7 @@ namespace lab9 {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(143, 23);
 			this->button2->TabIndex = 6;
-			this->button2->Text = L"Указать файл выхода";
+			this->button2->Text = L"РЈРєР°Р·Р°С‚СЊ С„Р°Р№Р» РІС‹С…РѕРґР°";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -146,7 +146,7 @@ namespace lab9 {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(75, 23);
 			this->button3->TabIndex = 7;
-			this->button3->Text = L"Решить";
+			this->button3->Text = L"Р РµС€РёС‚СЊ";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
@@ -156,7 +156,7 @@ namespace lab9 {
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(75, 23);
 			this->button4->TabIndex = 8;
-			this->button4->Text = L"Выход";
+			this->button4->Text = L"Р’С‹С…РѕРґ";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			// 
@@ -187,7 +187,7 @@ namespace lab9 {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(248, 13);
 			this->label4->TabIndex = 11;
-			this->label4->Text = L"Строка с минимальным количеством удалений";
+			this->label4->Text = L"РЎС‚СЂРѕРєР° СЃ РјРёРЅРёРјР°Р»СЊРЅС‹Рј РєРѕР»РёС‡РµСЃС‚РІРѕРј СѓРґР°Р»РµРЅРёР№";
 			// 
 			// textBox3
 			// 
@@ -215,7 +215,7 @@ namespace lab9 {
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
 			this->Name = L"MyForm";
-			this->Text = L"Лабораторная работа №9";
+			this->Text = L"Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р° в„–9";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -226,7 +226,7 @@ namespace lab9 {
 		
 		if (textBox1->Text->Length == 0 || textBox2->Text->Length == 0)
 		{
-			MessageBox::Show("Укажите файлы!", "Укажите файлы!",
+			MessageBox::Show("РЈРєР°Р¶РёС‚Рµ С„Р°Р№Р»С‹!", "РЈРєР°Р¶РёС‚Рµ С„Р°Р№Р»С‹!",
 				MessageBoxButtons::OK, MessageBoxIcon::Error);
 			return;
 		}
@@ -246,7 +246,7 @@ namespace lab9 {
 			}
 			catch (Exception^ ex)
 			{
-				MessageBox::Show(ex->Message, "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				MessageBox::Show(ex->Message, "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				if (sr) sr->Close();
 				if (sw) sw->Close();
 				return;
@@ -261,9 +261,9 @@ namespace lab9 {
 	}
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 	OpenFileDialog^ openFileDialog = gcnew OpenFileDialog;
-	openFileDialog->Title = "Открытие входного файла";
+	openFileDialog->Title = "РћС‚РєСЂС‹С‚РёРµ РІС…РѕРґРЅРѕРіРѕ С„Р°Р№Р»Р°";
 	openFileDialog->InitialDirectory = "d:\\";
-	openFileDialog->Filter = "Текстовые файлы (*.txt)|*.txt";
+	openFileDialog->Filter = "РўРµРєСЃС‚РѕРІС‹Рµ С„Р°Р№Р»С‹ (*.txt)|*.txt";
 	openFileDialog->FilterIndex = 1;
 	openFileDialog->ShowReadOnly = true;
 	openFileDialog->ReadOnlyChecked = true;
@@ -275,8 +275,8 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 }
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 	SaveFileDialog^ saveFileDialog = gcnew SaveFileDialog;
-	saveFileDialog->Title = "Открытие выходного файла";
-	saveFileDialog->Filter = "Текстовые файлы (*.txt)|*.txt";
+	saveFileDialog->Title = "РћС‚РєСЂС‹С‚РёРµ РІС‹С…РѕРґРЅРѕРіРѕ С„Р°Р№Р»Р°";
+	saveFileDialog->Filter = "РўРµРєСЃС‚РѕРІС‹Рµ С„Р°Р№Р»С‹ (*.txt)|*.txt";
 	saveFileDialog->FilterIndex = 1;
 	saveFileDialog->OverwritePrompt = true;
 	if (saveFileDialog->ShowDialog() ==
